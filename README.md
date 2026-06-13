@@ -241,7 +241,7 @@ body {
 ## 📞 Support & Questions
 
 For questions about this website:
-- **Email**: waqarkhalil.z@email.com (Update with actual email)
+- **Email**: zeeplatinumservicesinc@gmail.com (Update with actual email)
 - **Phone**: (437) 986-7576
 
 ## 📄 License
