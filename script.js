@@ -274,17 +274,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Here you would normally send the data to your server
             // For demonstration, we'll just show a success message after 2 seconds
-            setTimeout(function() {
-                showFormMessage('Thank you! Your request has been received. We\'ll contact you within 24 hours.', 'success');
-                quoteForm.reset();
-
-                // Optional: Send data via email service like EmailJS or FormSpree
-                // Or redirect to a thank you page
-            }, 2000);
-
+           
             // EXAMPLE: Using FormSpree (replace with your FormSpree endpoint)
-            /*
-            fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            
+            fetch('https://formspree.io/f/mwvjyzkb', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -302,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => {
                 showFormMessage('Sorry, there was an error submitting your request. Please try again or call us directly.', 'error');
             });
-            */
+            
         });
     }
 
